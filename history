@@ -1,0 +1,31 @@
+echo $HISTFILE
+cat $HISTFILE
+mkdir -p ~/Desktop/cornell/spring2025/BSS/HW1
+export HISTFILE=~/Desktop/cornell/spring2025/BSS/HW1/history
+echo $HISTFILE
+echo "This is Siyan"
+ls
+pwd
+whoami
+history -a
+cat ~/Desktop/cornell/spring2025/BSS/HW1/history
+echo 'export HISTFILE=~/Desktop/cornell/spring2025/BSS/HW1/history' >> ~/.bashrc
+source ~/.bashrc
+ls -alhG
+history -a
+cat ~/Desktop/cornell/spring2025/BSS/HW1/history
+nano ~/Desktop/cornell/spring2025/BSS/HW1/marco.sh
+source ~/Desktop/cornell/spring2025/BSS/HW1/marco.sh
+nano ~/Desktop/cornell/spring2025/BSS/HW1/marco.sh
+source ~/Desktop/cornell/spring2025/BSS/HW1/marco.sh
+nano ~/Desktop/cornell/spring2025/BSS/HW1/marco.sh
+source ~/Desktop/cornell/spring2025/BSS/HW1/marco.sh
+cd ~/Desktop
+marco
+cd /tmp
+polo
+echo 'source ~/Desktop/cornell/spring2025/BSS/HW1/marco.sh' >> ~/.bashrc
+source ~/.bashrc
+echo $MARCO_DIR
+cat ~/.marco_dir
+history -a
