@@ -29,3 +29,33 @@ source ~/.bashrc
 echo $MARCO_DIR
 cat ~/.marco_dir
 history -a
+cat ~/Desktop/cornell/spring2025/BSS/HW1/history
+cd ~/Desktop/cornell/spring2025/BSS/HW1
+git init
+git add history marco.sh
+git commit -m "Initial commit"
+echo "up, down, strange, charm" > quarks
+git add quarks
+git commit -m "Add light quarks"
+git switch -c merge-conflict
+echo ", truth, beauty" >> quarks
+git add quarks
+git commit -m "Add heavy quarks"
+git switch main
+cat quarks
+echo ", top, bottom" >> quarks
+git add quarks
+git commit -m "Add third generation quarks"
+git merge merge-conflict
+nano quarks
+git add quarks
+git commit -m "Resolve merge conflict: keep top & bottom quarks"
+git commit --amend -m "Merge from merge-conflict branch after resolving merge conflict"
+history -a
+git push https://github.com/sw-cornell/BSS_HW1.git
+git push -u origin main
+git pull --rebase origin main
+git status
+git remote add origin https://github.com/sw-cornell/BSS_HW1.git
+git push origin main
+history -a
